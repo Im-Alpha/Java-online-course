@@ -87,14 +87,22 @@ public class Main {
             // Checks if it's not an even number
             if (!isEvenNumber(number)) {
                 // Similar to break statement
-                // bypasses print statement and goes back to start of the loop instead
+                // bypasses print statement outside of if statement
+                // and goes back to start of the loop instead
                 continue;
             }
-            whileCount++;
+            // Must be above the whileCount++
+            // if it's under, it will not print out the last
+            // value found because the break will stop the loop
+            // before getting to that section of the code
+            System.out.println("Even number " + number);
 
-            //System.out.println("Even number " + number);
+            whileCount++;
+            if (whileCount >= 5) {
+                break;
+            }
         }
-        System.out.println(whileCount);
+        System.out.println("Total even numbers found " + whileCount);
     }
 
     // Challenge
