@@ -1,3 +1,13 @@
+/*      After lesson recap
+        The while loop checks the condition at the start before executing the block.
+        With the do while loop the code block is executed at once and then the condition is checked.
+        Be careful with conditions, it is easy to end up with endless loop that never executes.
+        Tip: always check your conditions/expressions
+        We can interrupt the loop by using a continue and/or a break statement.
+        With the continue keyword the loop will bypass the part of code block that is below
+        the continue line and will restart the loop.
+        With the break keyword we can exit the loop depending on the condition that we are checking.
+*/
 package jdelg;
 
 public class Main {
