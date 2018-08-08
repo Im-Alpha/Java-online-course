@@ -7,8 +7,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int min = 0;
-        int max = 0;
+        // Can also use max and min int value to ensure the first number is read instead
+        // of the boolean check
+
+        int min = 0; // For max value you can type Integer.Max_Value;
+        int max = 0; // For min value you can type Integer.Min_Value;
+        // The reason for making them opposite is so that the numbers entered are always less than or larger
+        // than the original value for the if statements.
+
         // boolean is referred to as a flag because it checks if something is true or not
         boolean first = true;
 
