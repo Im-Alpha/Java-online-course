@@ -50,7 +50,6 @@ public class Main {
             // Checks for negative number or absurd input
             if ((age >= 0) && (age <= 100)) {
                 System.out.println("Your name is " + name + ", and your age is " + age);
-
             } else {
                 System.out.println(name + " you have entered an invalid year of birth");
             }
